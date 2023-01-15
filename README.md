@@ -1,6 +1,3 @@
-
-## Available Scripts
-
 To Install Libraries:
 ### `npm install`
 
