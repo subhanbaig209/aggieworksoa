@@ -1,0 +1,35 @@
+.big-red-button {
+  margin-top: 100px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-color: #ff0000; /* Red color */
+  color: #fff; /* White color */
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%; /* Make the button circular */
+  box-shadow: 0px 5px 15px #333333; /* Shadow */
+  padding:0px;
+  border: solid 5px #fff;
+  cursor: pointer
+}
+.big-red-button:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.activity {
+  text-align: center;
+}
+
+.activity-text {
+  font-size: 25px;
+  font-weight: bold;
+}
